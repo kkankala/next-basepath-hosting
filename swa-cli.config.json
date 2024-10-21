@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "next-basepath-hosting": {
+      "apiBuildCommand": "pnpm build --if-present",
+      "apiLanguage": "node",
+      "apiLocation": "api",
+      "apiVersion": "18",
+      "appBuildCommand": "pnpm build",
+      "appDevserverUrl": "http://localhost:3000",
+      "appLocation": "blog",
+      "outputLocation": ".next",
+      "run": "pnpm dev"
+    }
+  }
+}
